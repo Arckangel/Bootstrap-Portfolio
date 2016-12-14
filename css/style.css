@@ -1,0 +1,276 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+
+/*------------------------------Bouton Go To TOP------------------------------*/
+
+.boutonTop{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 100;
+  box-shadow: 0px 1px 3px rgba(51,51,51,0.5);
+}
+
+.lienBoutonTop{
+  color: white;
+
+  text-shadow: 0px 1px 2px rgba(51,51,51,0.5);
+}
+
+.lienBoutonTop:hover{
+  color: rgb(255, 255, 255);
+}
+
+.boutonTop:hover{
+  border: 3px solid rgb(255, 255, 255);
+}
+
+/*-------------------------------Boutons Themes-------------------------------*/
+
+#btns{
+  position: fixed;
+  top: 20%;
+  right: 25px;
+  z-index: 100
+}
+
+.btnT{
+  width:20px; height:20px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#btn0{
+  background-color: rgb(64, 46, 98);
+}
+
+#btn1{
+  background-color: rgb(179,0,35);
+}
+
+#btn2{
+  background-color: rgb(118,162,187);
+}
+
+#btn3{
+  background-color: rgb(233,137,79);
+}
+
+#btn4{
+  background-color: rgb(100,161,128);
+}
+
+#btn5{
+  background-color: rgb(96,96,96);
+}
+
+/*-----------------------------------Navbar-----------------------------------*/
+
+.navbar{
+  background-color: rgb(64, 46, 98);
+}
+.navbar a{
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand:hover,
+.navbar-nav li a:hover{
+  background-color: transparent!important;
+  color: lightgrey;
+}
+
+.navbar button span{
+  background-color: white;
+}
+
+/*------------------------------------Fonds-----------------------------------*/
+
+.fondMauve{
+  background-color: rgb(64, 46, 98);
+}
+
+.fondRose{
+  background-color: rgb(231, 221, 251);
+}
+
+/*-----------------------------------Couleurs---------------------------------*/
+
+.titreGris{
+  color: rgb(51,51,51);
+}
+
+/*---------------------------------Star-Light 1-------------------------------*/
+
+hr.star-light-1 {
+  border-color: white;
+}
+
+hr.star-light-1, hr.star-primary {
+  padding: 0;
+  border: none;
+  border: 2.5px solid white;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+  border-radius: 5px;
+  background-color: rgb(64, 46, 98);
+}
+
+hr.star-light-1::after{
+  background-color: inherit;
+  color: white;
+}
+
+hr.star-light-1::after, hr.star-primary::after{
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  font-size: 2em;
+  padding: 0 .25em;
+}
+
+/*---------------------------------Star-Light 2-------------------------------*/
+
+hr.star-light-2 {
+  border-color: rgb(64, 46, 98);
+}
+
+hr.star-light-2, hr.star-primary {
+  padding: 0;
+  border: none;
+  border: 2.5px solid rgb(64, 46, 98);
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+  border-radius: 5px;
+
+  background-color: rgb(231, 221, 251);
+  color: rgb(64, 46, 98);
+}
+
+hr.star-light-2::after{
+  background-color: inherit;
+  color: inherit;
+}
+
+hr.star-light-2::after, hr.star-primary::after{
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  font-size: 2em;
+  padding: 0 .25em;
+}
+
+/*------------------------------------Ancres----------------------------------*/
+
+.espaceAncre{
+  margin-bottom: 20px;
+}
+
+/*-----------------------------------Acceuil----------------------------------*/
+
+.avatar{
+  margin-top: 14.5%;
+  width: 200px;
+  height: 200px;
+  color: white;
+  border-radius: 50%;
+  background-image: url("../image/avatar.png");
+  background-size: cover;
+}
+
+.subtitleAcceuil{
+  margin-top: 10px;
+  padding-bottom: 10%;;
+}
+
+/*----------------------------------Carousel----------------------------------*/
+
+.carousel{
+  max-width: 900px;
+  height:auto;
+  border: 1px solid rgb(51,51,51);
+  margin-bottom: 10%;
+}
+
+.carousel-caption{
+  text-shadow: 0px 1px 2px black;
+  color: white;
+}
+
+/*-----------------------------------About Me---------------------------------*/
+
+.aboutMe{
+  background-image: url("../image/image1.png");
+  background-size:contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+@media all and (max-width:992px) {
+  .aboutMe{
+    background-image:none;
+  }
+}
+
+.description{
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 12%;
+}
+
+.imgAbout{
+  width: auto;
+  max-height: 430px;
+}
+
+/*------------------------------------Contact---------------------------------*/
+
+.labelContact{
+  color: rgb(51,51,51);
+}
+
+.btn{
+  margin-bottom: 6%;
+  border: none;
+}
+
+.btn-success{
+  background-color: rgb(64, 46, 98);
+}
+
+/*------------------------------------Footer----------------------------------*/
+
+.footer{
+  padding-top: 3%;
+  background-color: rgb(64, 46, 98);
+}
+
+.footer-below{
+  margin-top: 3%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(12, 1, 24);
+}
+
+.footer a{
+  color: white;
+}
+
+.footer a:hover{
+  color: lightgrey;
+}

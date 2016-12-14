@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <!-- - - - - - - - - - - - - - - - - - - Navbar - - - - - - - - - - - - - - - - - -->
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand js-scrollTo" href="#home">HOME</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#portfolio" class="js-scrollTo" >PORTFOLIO</a></li>
+            <li><a href="#about" class="js-scrollTo" >ABOUT ME</a></li>
+            <li><a href="#contact" class="js-scrollTo" >CONTACT</a></li>
+          </ul>
+          <!-- Boutons Themes -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a><div id="btn0" class="btnT"></div></a></li>
+            <li><a><div id="btn1" class="btnT"></div></a></li>
+            <li><a><div id="btn2" class="btnT"></div></a></li>
+            <li><a><div id="btn3" class="btnT"></div></a></li>
+            <li><a><div id="btn4" class="btnT"></div></a></li>
+            <li><a><div id="btn5" class="btnT"></div></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- - - - - - - - - - - - - - - - - - - Bouton Go to Top - - - - - - - - - - - - - - - - - -->
+
+    <a href="#home" class="lienBoutonTop js-scrollTo"><div class="boutonTop text-center">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div></a>
+
+    <!-- - - - - - - - - - - - - - - - - - - Conteneur Global - - - - - - - - - - - - - - - - - -->
+
+    <div class="container-fluid">
+
+      <!-- - - - - - - - - - - - - - - - - - - Accueil - - - - - - - - - - - - - - - - - -->
+
+      <div class="row fondMauve" id="home">
+        <div class="col-xs-12 text-center">
+            <div class="avatar center-block">
+            </div>
+            <br>
+            <h1>BENJAMIN CAROUX</h1>
+            <hr class="star-light-1"></hr>
+            <p class="subtitleAcceuil">Web Developer - Graphic Artist</p>
+        </div>
+      </div>
+
+      <!-- - - - - - - - - - - - - - - - - - - Portfolio - - - - - - - - - - - - - - - - - -->
+      <div class="row fondRose">
+        <div class="col-xs-12 text-center">
+            <br class="espaceAncre" id="portfolio">
+            <h1 class="titreGris">PORTFOLIO</h1>
+            <hr class="star-light-2"></hr>
+            <br>
+        </div>
+
+        <!-- Carousel  -->
+        <div class="col-xs-12 text-center">
+          <div id="carousel-example-generic" class="carousel slide center-block" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="image/challenge.png" alt="Challenge">
+                <div class="carousel-caption">
+                  <h3>Le Bouquet de Rose</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../HTML_CSS_Noob/Challenge1/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/jeu.png" alt="Mini jeu">
+                <div class="carousel-caption">
+                  <h3>Mini jeu</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/Fonctions/Exos/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/chaudfroid.png" alt="Chaud Froid">
+                <div class="carousel-caption">
+                  <h3>Jeu du chaud-froid</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/Exo2_js/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/morpion.png" alt="Tic Tac Toe">
+                <div class="carousel-caption">
+                  <h3>Tic Tac Toe</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/TicTacToe/Chall2_TicTacToe/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/storyteller.png" alt="Storyteller">
+                <div class="carousel-caption">
+                  <h3>Storyteller</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/Chall1_StoryTeller/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/mot.png" alt="Le mot">
+                <div class="carousel-caption">
+                  <h3>Le mot</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/Exo3_js/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/chrono.png" alt="Chrono">
+                <div class="carousel-caption">
+                  <h3>Chronométre</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/Chrono/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/spacecraft.png" alt="Spacecraft">
+                <div class="carousel-caption">
+                  <h3>Spacecraft</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../../Javascript/SpaceCraft/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/maquette2.png" alt="Maquette Bonsai">
+                <div class="carousel-caption">
+                  <h3>Maquette Bonsai</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../Exo2/Maquette/index.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="image/mockup.png" alt="Mockup Facebook">
+                <div class="carousel-caption">
+                  <h3>Mockup Facebook</h3>
+                  <p>hgesf vjhfvwdvz vhg kzqvgf hehgfwfb hjs shjg</p>
+                  <a href="../Exo1/mockup3.html" target="_blank">Accéder au site</a>
+                </div>
+              </div>
+
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- - - - - - - - - - - - - - - - - - - About Me - - - - - - - - - - - - - - - - - -->
+
+      <div class="row aboutMe fondMauve" >
+        <div class="col-xs-12 text-center">
+          <br class="espaceAncre" id="about">
+          <h1>ABOUT ME</h1>
+          <hr class="star-light-1"></hr>
+          <br>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8">
+          <p class="description">I'm a web developer. I create visionary ideas and transform them into
+            real products by translating user demands, business needs and technical
+            requirements into simple, engaging and delightful experiences.<br>
+            <br>
+            During my time at my training, I worked in many different websites. My
+            field of expertise concern HTML5 and CSS3 for enterprise, e-commerce,
+            consumer electronics, entertainment, digital farming, smart home, smart
+            city infrastructure and more webstites types.<br>
+            <br>
+            I'm currently based in Saint-Léonard, and I'm going to learn JavaScript
+            and Responsive. I'm available for freelance work. If you’d like to check
+            out my portfolio or chat about projects, please don’t hesitate to tell me
+            in contact.
+          </p>
+        </div>
+      </div>
+
+      <!-- - - - - - - - - - - - - - - - - - - Contact - - - - - - - - - - - - - - - - - -->
+
+      <div class="row fondRose">
+        <div class="col-xs-12 text-center">
+            <br class="espaceAncre" id="contact">
+            <h1 class="titreGris">CONTACT</h1>
+            <hr class="star-light-2"></hr>
+            <br>
+
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+
+                <!-- Formulaire de contact -->
+                <form name="sentMessage" id="contactForm" novalidate>
+                  <!-- Nom -->
+                  <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                      <label class="labelContact">Name</label>
+                      <input type="text" class="form-control" placeholder="Name">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                      <label class="labelContact">Email Address</label>
+                      <input type="email" class="form-control" placeholder="Email Address">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <!-- Numéro de téléphone -->
+                  <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                      <label class="labelContact">Phone Number</label>
+                      <input type="tel" class="form-control" placeholder="Phone Number">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <!-- Message -->
+                  <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                      <label class="labelContact">Message</label>
+                      <textarea rows="5" class="form-control" placeholder="Message"></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+
+                  <br>
+
+                  <!-- Bouton Envoi -->
+                  <div id="success"></div>
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - - -->
+
+    <footer class="text-center footer">
+
+      <!-- Footer partie Haute -->
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+
+            <!-- Bloc Gauche -->
+            <div class="footer-col col-md-4">
+              <h3>Location</h3>
+              <p>Saint-Léonard, FR 62360</p>
+            </div>
+
+            <!-- Bloc Central -->
+            <div class="footer-col col-md-4">
+              <h3>Around the Web</h3>
+              <ul class="list-inline">
+                <li>
+                  <a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                </li>
+
+                <li>
+                  <a href="#"><i class="fa fa-fw fa-google-plus"></i></a>
+                </li>
+
+                <li>
+                  <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+
+                <li>
+                  <a href="#"><i class="fa fa-fw fa-skype"></i></a>
+                </li>
+
+                <li>
+                  <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Bloc Droit -->
+            <div class="footer-col col-md-4">
+              <h3>Email</h3>
+              <p>benjamin.caroux@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer partie Basse -->
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              &copy; My Portfolio 2016
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"> </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/e9ee3b1867.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+
+</html>
