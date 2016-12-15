@@ -81,9 +81,11 @@ body{
 }
 
 .navbar-brand:hover,
-.navbar-nav li a:hover{
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
   background-color: transparent!important;
   color: lightgrey;
+  text-decoration: none;
 }
 
 .navbar button span{
