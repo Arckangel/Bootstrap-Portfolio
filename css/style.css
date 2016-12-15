@@ -211,6 +211,17 @@ hr.star-light-2::after, hr.star-primary::after{
   color: white;
 }
 
+.carousel-caption a{
+  text-shadow: 0px 1px 2px black;
+  color: white;
+}
+
+.carousel-caption a:hover,
+.carousel-caption a:focus{
+  color: rgb(231, 231, 251);
+  text-decoration: none;
+}
+
 /*-----------------------------------About Me---------------------------------*/
 
 .aboutMe{
@@ -254,6 +265,12 @@ hr.star-light-2::after, hr.star-primary::after{
 .btn-success{
   background-color: rgb(64, 46, 98);
 }
+
+.form-control:focus {
+  border-color: rgba(64, 46, 98, 0.6);
+  box-shadow: 0 0 8px rgba(64, 46, 98, 0.6);
+}
+
 
 /*------------------------------------Footer----------------------------------*/
 
