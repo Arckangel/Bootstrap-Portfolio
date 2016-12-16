@@ -232,7 +232,7 @@ hr.star-light-2::after, hr.star-primary::after{
 /*-----------------------------------About Me---------------------------------*/
 
 .aboutMe{
-  background-image: url("../image/imageMauve.png");
+  background-image: url("../image/image.png");
   background-size:contain;
   background-position: right;
   background-repeat: no-repeat;
