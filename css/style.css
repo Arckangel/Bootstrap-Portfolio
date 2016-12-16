@@ -253,11 +253,6 @@ hr.star-light-2::after, hr.star-primary::after{
   margin-bottom: 12%;
 }
 
-.imgAbout{
-  width: auto;
-  max-height: 430px;
-}
-
 /*------------------------------------Contact---------------------------------*/
 
 .labelContact{
