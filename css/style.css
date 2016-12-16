@@ -24,11 +24,11 @@ body{
 }
 
 .lienBoutonTop:hover{
-  color: rgb(255, 255, 255);
+  color: rgb(209, 214, 213);
 }
 
 .boutonTop:hover{
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(209, 214, 213);
 }
 
 /*-------------------------------Boutons Themes-------------------------------*/
@@ -81,11 +81,18 @@ body{
 }
 
 .navbar-brand:hover,
-.navbar-nav li a:hover,
-.navbar-nav li a:focus{
-  background-color: transparent!important;
+.navbar-nav a:hover
+{
   color: lightgrey;
+}
+
+.navbar-brand:hover,
+.navbar-nav a:hover,
+.navbar-nav a:focus,
+.navbar-brand:focus{
+  background-color: transparent!important;
   text-decoration: none;
+  outline: 0;
 }
 
 .navbar button span{
@@ -177,7 +184,7 @@ hr.star-light-2::after, hr.star-primary::after{
 /*------------------------------------Ancres----------------------------------*/
 
 .espaceAncre{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /*-----------------------------------Acceuil----------------------------------*/
@@ -225,7 +232,7 @@ hr.star-light-2::after, hr.star-primary::after{
 /*-----------------------------------About Me---------------------------------*/
 
 .aboutMe{
-  background-image: url("../image/image1.png");
+  background-image: url("../image/imageMauve.png");
   background-size:contain;
   background-position: right;
   background-repeat: no-repeat;

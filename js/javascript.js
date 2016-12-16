@@ -11,6 +11,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageMauve.png" + ')');
   });
 
   $("#btn1").click(function(){
@@ -24,6 +25,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageRouge.png" + ')');
   });
 
   $("#btn2").click(function(){
@@ -37,6 +39,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageBleu.png" + ')');
   });
 
   $("#btn3").click(function(){
@@ -50,6 +53,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageOrange.png" + ')');
   });
 
   $("#btn4").click(function(){
@@ -63,6 +67,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageVert.png" + ')');
   });
 
   $("#btn5").click(function(){
@@ -76,6 +81,7 @@ $(function(){
       $('.form-control').blur(function(){
           $(this).css({"borderColor": "#ccc", "boxShadow":"0 0px 0px rgba(0, 0, 0, .075)"});
       });
+      // $('.aboutMe').css("background-image", 'url(' + "image/imageGris.png" + ')');
   });
 });
 
